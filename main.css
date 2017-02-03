@@ -1,6 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css?family=Orbitron');
-@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');*/
-
 @import url('https://fonts.googleapis.com/css?family=Nova+Square');
 body {
     background-image: url(background.jpg);
@@ -8,7 +5,7 @@ body {
     background-size: cover;
 }
 
-#radar {
+#radar-clock {
     position: relative;
     width: 321px;
     height: 321px;
@@ -29,30 +26,7 @@ body {
     /*animation-delay: -10s*/
 }
 
-
-/*@keyframes radar-clock {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}*/
-
-
-/*.obj {
-    background: #cf5;
-    position: absolute;
-    border-radius: 10px;
-    width: 4px;
-    height: 4px;
-    margin-top: -2px;
-    margin-left: -2px;
-    box-shadow: 0 0 10px 5px rgba(100, 255, 0, 0.5);
-    opacity: 0.2;
-}*/
-
-#clock {
+#digital-clock {
     font-family: Nova Square;
     font-size: 40px;
     font-weight: normal;
@@ -60,6 +34,7 @@ body {
     width: 200px;
     height: 20px;
     text-align: center;
+
     text-shadow: 2px 0 0 #42ba39, -2px 0 0 #42ba39, 0 2px 0 #42ba39, 0 -2px 0 #42ba39, 1px 1px #42ba39, -1px -1px 0 #42ba39, 1px -1px 0 #42ba39, -1px 1px 0 #fff, #009602 0 0 15px;
     /*text-shadow: #009602 0 0 10px;*/
 }
