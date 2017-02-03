@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nova+Square');
 body {
-    background-image: url(background.jpg);
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 321px;
     height: 321px;
-    background: url(radar.png);
+    background: url(./images/radar.png);
     border-radius: 320px;
     overflow: hidden;
 }
@@ -18,7 +18,7 @@ body {
     position: absolute;
     width: 321px;
     height: 321px;
-    background: url(hand.png);
+    background: url(./images/hand.png);
     animation-name: radar-clock;
     animation-duration: 60s;
     animation-iteration-count: infinite;
